@@ -1,0 +1,87 @@
+
+.wrapR{
+    margin:auto;
+    margin-top: 80px;
+    padding:10px;
+    background-color:azure;
+    width:280px;
+    height:400px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    filter: drop-shadow(2px 2px 2px black);
+    border-radius: 6px;
+    
+}
+.h1{
+    color: rgb(28, 140, 184);
+    margin-top:0;
+    padding-top:5px;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    
+    
+}
+.boxR{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+.boxR label{
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    margin-bottom:5px;
+    
+}
+.boxR input{
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 3px;
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid red;
+}
+.box1R{
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    height: 30px;
+    width: 100%;
+}
+.buttonR{
+    width: 90px;
+    height:35px;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    color:darkolivegreen;
+    background-color: lightblue;
+    cursor: pointer;
+}
+.buttonR:hover{
+    opacity: 0.9;
+    color: bisque;
+    background-color: rgb(70, 219, 219);
+    transform: scale(1.1);
+}
+.pR{
+    margin-top:8px;
+    text-decoration: none;
+    color: pink;
+    cursor: pointer;
+}
+.pR:hover{
+    color:red;
+}
+.pR{
+    margin-bottom:10px;;
+}

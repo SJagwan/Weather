@@ -1,0 +1,48 @@
+#wrapN{
+    width: 100%;
+    height: 45px;
+    background: whitesmoke;
+    border-bottom: 2px solid goldenrod;
+
+}
+
+#wrapNL{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    line-height: 45px;
+    list-style: none;
+    
+}
+.leftside{
+    display: flex;
+    
+}
+.rightside{
+    display: flex;
+}
+.list{
+    padding: 0 8px;
+    cursor: pointer;
+    font-size: 18px;
+    overflow: hidden;
+}
+.list1{
+    padding: 0 5px;
+    margin: 0px 8px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.list:hover{
+    color: blue;
+    background-color:rgb(67, 177, 192);
+
+}
+.list1:hover{
+    color: blue;
+    background-color:rgb(84, 179, 207) ;
+
+}
