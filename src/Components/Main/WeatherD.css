@@ -1,0 +1,19 @@
+.Weather{
+
+    margin-top:4%;
+    height: 37vh;
+    display:flex;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+    width: 76vh;
+    height: 36vh;
+    padding: 2vh;
+    box-shadow: 2px 2px 4px black;
+}
+.WeatherP{
+    margin:8px 0px;
+    font-size: 3.5vh;
+    font-weight: bold;
+}

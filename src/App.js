@@ -1,19 +1,21 @@
 import React,{Component} from 'react';
-import Navbar from './Navbar/Navbar';
-import Home from './Home/Home';
-import Login from './Login/Login';
-import Register from './Register/Register';
-import Main from './Main/Main';
+import Navbar from './Components/Navbar/Navbar';
+import Home from './Components/Home/Home.js';
+import Login from './Components/Login/Login';
+import Register from './Components/Register/Register';
+import Main from './Components/Main/Main.js';
 
 const initialState ={
     Input:"",
-    Route:'Main',
+    Route:'Home',
+    name:"",
     temp:"",
     pressure:"",
     humidity:"",
     description:"",
     error:"",
-    isSignIn: false
+    isSignIn: false,
+    display :false
 
 }
 
@@ -42,11 +44,12 @@ class App extends Component {
         const data = await resp.json();   
         if(this.state.Input)
         {
+              this.setState({name:data.name});
               this.setState({temp:data.main.temp});
               this.setState({pressure:data.main.pressure});
               this.setState({humidity:data.main.humidity});
               this.setState({description:data.weather[0].description});
-              console.log(data.name);
+              this.setState({display :true});
         }
     }
       
@@ -64,10 +67,12 @@ class App extends Component {
                <Main 
                      onInputChange={this.onInputChange} 
                      onSubmitButton={this.onSubmitButton}
+                     name={this.state.name}
                      temp={this.state.temp}
                      pressure={this.state.pressure}
                      humidity={this.state.humidity}
                      description={this.state.description}
+                     display={this.state.display}
                 />
                 )
                )

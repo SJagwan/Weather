@@ -1,8 +1,12 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+
 body {
   margin: 0;
   padding: 0;
-
-  background: linear-gradient(to bottom ,paleturquoise,bisque,paleturquoise);
+  background-color: azure;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;

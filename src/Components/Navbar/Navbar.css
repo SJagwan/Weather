@@ -1,0 +1,45 @@
+#wrapN{
+    width: 100%;
+    height: 7vh;
+
+    background: whitesmoke;
+    border-bottom: 2px solid goldenrod;
+}
+
+#wrapNL{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    line-height: 7vh;
+    list-style: none;
+    
+}
+.leftside{
+    display: flex;
+    
+}
+.rightside{
+    display: flex;
+}
+.list{
+    padding:0vh 0.8vh;
+    cursor: pointer;
+    font-size: 3.5vh;
+}
+.list1{
+    padding: 0vh 0.8vh;
+    margin: 0vh 0.8vh;
+    font-size: 3.5vh;
+    cursor: pointer;
+    
+}
+.list:hover{
+    color: blue;
+    background-color:rgb(67, 177, 192);
+
+}
+.list1:hover{
+    color: blue;
+    background-color:rgb(84, 179, 207) ;
+
+}

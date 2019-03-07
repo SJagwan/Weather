@@ -1,0 +1,28 @@
+.InputM{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+.InputI{
+    outline: none;
+    width:40vh;
+    font-size:2.5vh;
+    border-radius: 2px;
+    margin-right: 3px;
+}
+.InputB{
+    outline: none;
+    width:12vh;
+    height: 5vh;
+    font-size:2.5vh;
+    border-radius: 4px;
+    margin-left:3px;
+    background-color: greenyellow;
+    cursor: pointer;
+    
+}
+.InputB:hover{
+    transform: scale(1.1);
+}
