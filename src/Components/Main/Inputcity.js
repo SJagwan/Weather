@@ -1,6 +1,6 @@
 import React from 'react';
  import './Inputcity.css'
-const Inputcity=({onInputChange,onSubmitButton}) => {
+const InputCity=({onInputChange,onSubmitButton}) => {
     return(
             <div className="InputM">
                <input onChange={onInputChange} className="InputI" type="type" placeholder="Enter city name...."></input>
@@ -9,4 +9,4 @@ const Inputcity=({onInputChange,onSubmitButton}) => {
             </div>
         );
 }
-export default Inputcity;
+export default InputCity;

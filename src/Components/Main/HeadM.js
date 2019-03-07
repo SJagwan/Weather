@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeadM.css'
-const HeadM=() => {
+const HeadM =() => {
     return(
             <div className='headM'>
                     <h1 className="headh">Weather Forecast</h1>

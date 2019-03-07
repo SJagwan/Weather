@@ -8,6 +8,6 @@ import './Home.css';
                  <p className="homeP">Yo guys <em>SJ</em> is here.</p>
               </div>
          </div>
-     )
+     );
  }
  export default Home;

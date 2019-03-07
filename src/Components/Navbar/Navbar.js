@@ -8,8 +8,8 @@ const Navbar=({onRouteChange,isSignIn})=>{
             <ul id="wrapNL"> 
                 <div className="leftside">
                    <li onClick={()=> onRouteChange('Home')} className="list">Home </li>
-                   <li className="list">AboutMe</li>
-                   <li className="list">Contact</li>
+                   {/* <li className="list">AboutMe</li>
+                   <li className="list">Contact</li> */}
                 </div>
                {isSignIn?( 
                   <div className="rightside">
